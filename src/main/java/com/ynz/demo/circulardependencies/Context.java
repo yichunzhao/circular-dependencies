@@ -1,5 +1,6 @@
 package com.ynz.demo.circulardependencies;
 
+import com.ynz.demo.circulardependencies.states.State;
 import lombok.Getter;
 import lombok.Setter;
 

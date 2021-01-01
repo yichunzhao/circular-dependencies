@@ -1,5 +1,6 @@
 package com.ynz.demo.circulardependencies;
 
+import com.ynz.demo.circulardependencies.states.State;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -14,6 +15,6 @@ public class SolvingCircularDependencies {
 
         radio.setCurrentState(onState);
 
-        IntStream.range(1, 10).forEach(i -> radio.radioAction());
+        IntStream.range(1, 10).forEach(i -> radio.pressButton());
     }
 }

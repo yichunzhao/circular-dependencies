@@ -1,5 +1,6 @@
 package com.ynz.demo.circulardependencies;
 
+import com.ynz.demo.circulardependencies.states.State;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -12,7 +13,7 @@ public class RadioContext extends Context {
         this.currentState = state;
     }
 
-    public void radioAction(){
+    public void pressButton() {
         super.currentState.doAction();
     }
 }
