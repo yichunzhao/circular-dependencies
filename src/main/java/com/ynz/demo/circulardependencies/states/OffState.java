@@ -1,6 +1,6 @@
 package com.ynz.demo.circulardependencies.states;
 
-import com.ynz.demo.circulardependencies.Context;
+import com.ynz.demo.circulardependencies.context.Context;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

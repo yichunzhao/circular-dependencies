@@ -1,4 +1,4 @@
-package com.ynz.demo.circulardependencies;
+package com.ynz.demo.circulardependencies.context;
 
 import com.ynz.demo.circulardependencies.states.State;
 import lombok.Getter;
