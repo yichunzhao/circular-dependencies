@@ -25,12 +25,12 @@ public class OnState implements State {
 
     @Override
     public void doAction() {
-        System.out.println(" Turn on power ........ ");
+        System.out.println(" Turn on .......");
 
         //do something here
         try {
             Thread.sleep(1000);
-            System.out.println(" ... Power on ... ");
+            System.out.println("... signaling ...");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
