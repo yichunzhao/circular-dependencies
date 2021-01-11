@@ -4,7 +4,7 @@ solving circular DI
 
 The bean life-cycle as in an instantiation phase, it has two sub-phases to carry out dependency injections;
 the earlier one is through a constructor, and the latter one using a setter to achieve the same. 
-Hence, as two beans depend on each other, one may use constructor DI and anther one use setter DI.  This may avoid the deadlock because one wait a while to get another bean's reference. 
+Hence, as two beans depend on each other, one may use constructor DI and anther one use setter DI.  This may avoid the circular-dependency error for one wait a while to get another bean's reference. 
 
 ![image](https://user-images.githubusercontent.com/17804600/103445358-54a54780-4c73-11eb-9661-2e26d1356b76.png)
 
