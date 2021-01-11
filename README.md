@@ -1,6 +1,6 @@
 # circular-dependencies
 
-The bean life-cycle as in an instantiation phase, it has three sub-phases to carry out dependency injections. The earliest one is through a constructor(sub-phase, i.e. instantiating bean), the latter one as a setter invoked, and the last chance(post-init) for DI is through a postConstruct method. As two beans depend on each other(bi-directional association), one may use constructor DI and anther one use setter DI. This avoids the circular-dependency error(it looks like a deadlock), because making one wait a while to get another bean's reference. 
+The bean life-cycle as in an instantiation phase, it has three sub-phases to carry out dependency injections. The earliest one is through a constructor(sub-phase, i.e. instantiating bean), the latter one as a setter invoked, and the last chance(Initializer) for DI is through a postConstruct method. As two beans depend on each other(bi-directional association), one may use constructor DI and anther one use setter DI. This avoids the circular-dependency error(it looks like a deadlock), because making one wait a while to get another bean's reference. 
 
 ![image](https://user-images.githubusercontent.com/17804600/103445358-54a54780-4c73-11eb-9661-2e26d1356b76.png)
 
