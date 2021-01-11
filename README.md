@@ -1,6 +1,4 @@
 # circular-dependencies
-solving circular DI
-
 
 The bean life-cycle as in an instantiation phase, it has three sub-phases to carry out dependency injections;
 the earlier one is through a constructor, the latter one using a setter to achieve the same, and last chance is through a postConstruct method.  
